@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LOG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\LOG.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_aerin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_aerin.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_aerin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_aerin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_aerina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_aerina.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_anarion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_anarion.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_anarion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_anarion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_barahir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_barahir.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_barahir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_barahir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_beleg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_beleg.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_beleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_beleg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_beren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_beren.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_beren1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_beren.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_bilbo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_bilbo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_bilbo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_bilbo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_brandir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_brandir.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_brandir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_brandir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_caranthir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_caranthir.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_caranthir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_caranthir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_cirdan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_cirdan.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_cirdan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_cirdan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_default.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_dorlas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_dorlas.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_dorlas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_dorlas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_earendil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_earendil.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_earendil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_earendil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_elendil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_elendil.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_elendil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_elendil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_elrond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_elrond.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_elrond1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_elrond.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_eol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_eol.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_eol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_eol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_eru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_eru.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_eru1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_eru.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_finduilas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_finduilas.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_finduilas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_finduilas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_fingon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_fingon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_fingon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_fingon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_finrod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_finrod.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_finrod1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_finrod.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_frodo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_frodo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_frodo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_frodo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_galadriela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_galadriela.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_galadriela1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_galadriela.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_gandalf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_gandalf.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_gandalf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_gandalf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_glaurung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_glaurung.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_glaurung1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_glaurung.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_glorfindel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_glorfindel.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_glorfindel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_glorfindel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_gothmog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_gothmog.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_gothmog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_gothmog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_huor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_huor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_huor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_huor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_hurin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_hurin.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_hurin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_hurin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_idril" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_idril.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_idril1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_idril.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_indis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_indis.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_indis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_indis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_lalaith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_lalaith.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_lalaith1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_lalaith.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_luthien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_luthien.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_luthien1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_luthien.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_maglor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_maglor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_maglor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_maglor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_manwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_manwe.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_manwe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_manwe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_meliana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_meliana.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_meliana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_meliana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_mim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_mim.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_mim1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_mim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_miriel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_miriel.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_miriel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_miriel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_morgoth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_morgoth.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_morwena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_morwena.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_morwena1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_morwena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_nienor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_nienor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_nienor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_nienor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_orodreth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_orodreth.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_orodreth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_orodreth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_radagast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_radagast.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_radagast1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_radagast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_saruman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_saruman.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_saruman1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_saruman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_sauron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_sauron.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_sauron1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_sauron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_thingol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_thingol.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_thingol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_thingol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_tuor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_tuor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_tuor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_tuor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_turgon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_turgon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="s_turgon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_turgon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_turin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_d\s_turin.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="s_turin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_turin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DATA_BIN\ch_i\s_unknown.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

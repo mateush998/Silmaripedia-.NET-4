@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD5F0E8C-568D-40FA-B2AC-A015AAC457F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SILMARILLION_FINAL</RootNamespace>
+    <AssemblyName>Silmaripedia - słownik postaci</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Dreamcast\Silmaripedia 1.0.6.8\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.6.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>send</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>silmarICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>891713A9A59CBA4F348F7A04768D72FA5DECAF17</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SILMARILLION_FINAL_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloForm.Designer.cs">
+      <DependentUpon>HelloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageForm.Designer.cs">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroForm.Designer.cs">
+      <DependentUpon>IntroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tenkju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tenkju.Designer.cs">
+      <DependentUpon>tenkju.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HelloForm.resx">
+      <DependentUpon>HelloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageForm.resx">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroForm.resx">
+      <DependentUpon>IntroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenkju.resx">
+      <DependentUpon>tenkju.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RINGM___0.TTF" />
+    <None Include="SILMARILLION_FINAL_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\szukaj1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapisz_button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\szukaj_button2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\szukaj_button3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_button2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_button3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\szukaj_button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapisz_button2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapisz_button3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_morgoroth.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO mat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_unknown.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_turin.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_turgon.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_tuor.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_thingol.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_sauron.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_saruman.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_radagast.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_orodreth.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_nienor.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_morwena.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_morgoroth.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_miriel.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_mim.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_meliana.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_manwe.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_maglor.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_luthien.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_lalaith.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_indis.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_idril.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_hurin.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_huor.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_gothmog.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_glorfindel.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_glaurung.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_gandalf.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_galadriela.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_frodo.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_finrod.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_fingon.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_finduilas.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_eru.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_eol.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_elrond.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_elendil.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_earendil.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_dorlas.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_cirdan.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_caranthir.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_brandir.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_bilbo.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_beren.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_beleg.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_barahir.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_anarion.jpg" />
+    <None Include="bin\Debug\DATA_BIN\ch_i\s_aerin.jpg" />
+    <None Include="bin\Debug\DATA_BIN\LOG.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_turin.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_turgon.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_tuor.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_thingol.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_sauron.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_saruman.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_radagast.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_orodreth.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_nienor.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_morwena.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_morgoth.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_miriel.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_mim.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_meliana.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_manwe.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_maglor.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_luthien.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_lalaith.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_indis.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_idril.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_hurin.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_huor.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_gothmog.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_glorfindel.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_glaurung.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_gandalf.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_galadriela.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_frodo.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_finrod.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_fingon.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_finduilas.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_eru.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_eol.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_elrond.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_elendil.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_earendil.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_dorlas.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_default.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_cirdan.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_caranthir.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_brandir.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_bilbo.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_beren.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_beleg.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_barahir.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_anarion.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_aerina.txt" />
+    <None Include="bin\Debug\DATA_BIN\ch_d\s_aerin.txt" />
+    <Content Include="silmarICO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
